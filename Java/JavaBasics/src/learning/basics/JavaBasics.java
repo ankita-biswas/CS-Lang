@@ -2,77 +2,77 @@ package learning.basics;
 
 public class JavaBasics {
 
-    public void learningStrings() {
-	System.out.println("Hello");
-	System.out.println("My name is Ann");
-	String myName = "Ann Bishop";
-	System.out.println(myName);
-    }
-
-    public void learningNumbers() {
-	int a = 5;
-	int b = 10;
-	System.out.println(a);
-	System.out.println(b);
-
-	int c = a + b;
-	System.out.println(c);
-    }
-
-    public void learningBoolean() {
-	boolean isColdToday = false;
-
-	if (isColdToday) {
-	    System.out.println("drink hot coffee");
-	} else {
-	    System.out.println("drink ice coffee");
+	public void learningStrings() {
+		System.out.println("Hello");
+		System.out.println("My name is Ann");
+		String myName = "Ann Bishop";
+		System.out.println(myName);
 	}
-    }
 
-    public void learningComparisonOperator() {
-	int price = 2000;
+	public void learningNumbers() {
+		int a = 5;
+		int b = 10;
+		System.out.println(a);
+		System.out.println(b);
 
-	if (price > 1000) {
-	    System.out.println("very expensive");
-	} else if (price > 100) {
-	    System.out.println("expensive");
-	} else {
-	    System.out.println("cheap");
+		int c = a + b;
+		System.out.println(c);
 	}
-    }
 
-    public void calculateDiameter() {
-	int radius = 21;
-	double circumfrence = 2 * Math.PI * radius;
-	System.out.println(circumfrence);
-    }
+	public void learningBoolean() {
+		boolean isColdToday = false;
 
-    public double calculateDiameterParam(int radius) {
-	double circumfrence = 2 * Math.PI * radius;
-	return circumfrence;
-    }
+		if (isColdToday) {
+			System.out.println("drink hot coffee");
+		} else {
+			System.out.println("drink ice coffee");
+		}
+	}
 
-    public int calculateAreaParam(int height, int width) {
-	int area = height * width;
-	return area;
-    }
+	public void learningComparisonOperator() {
+		int price = 2000;
 
-    public static void main(String[] args) {
+		if (price > 1000) {
+			System.out.println("very expensive");
+		} else if (price > 100) {
+			System.out.println("expensive");
+		} else {
+			System.out.println("cheap");
+		}
+	}
 
-	JavaBasics myClass = new JavaBasics();
-	// myClass.learningStrings();
-	// myClass.learningNumbers();
-	// myClass.learningBoolean();
-	// myClass.learningComparisonOperator();
-	// myClass.calculateDiameter();
+	public void calculateDiameter() {
+		int radius = 21;
+		double circumfrence = 2 * Math.PI * radius;
+		System.out.println(circumfrence);
+	}
 
-	// double circumference = myClass.calculateDiameterParam(7);
-	// System.out.println(circumference);
+	public double calculateDiameterParam(int radius) {
+		double circumfrence = 2 * Math.PI * radius;
+		return circumfrence;
+	}
 
-	int area = myClass.calculateAreaParam(3, 8);
-	System.out.println(area);
+	public int calculateAreaParam(int height, int width) {
+		int area = height * width;
+		return area;
+	}
 
-    }
+	public static void main(String[] args) {
+
+		JavaBasics myClass = new JavaBasics();
+		// myClass.learningStrings();
+		// myClass.learningNumbers();
+		// myClass.learningBoolean();
+		// myClass.learningComparisonOperator();
+		// myClass.calculateDiameter();
+
+		// double circumference = myClass.calculateDiameterParam(7);
+		// System.out.println(circumference);
+
+		int area = myClass.calculateAreaParam(3, 8);
+		System.out.println(area);
+
+	}
 
 }
 

@@ -45,7 +45,7 @@ public class FileReaderWriter {
 		String thisLine = bufferedReader.readLine();
 
 		System.out.println(thisLine);
-		
+
 		bufferedReader.close();
 	}
 
