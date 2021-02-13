@@ -92,7 +92,7 @@ public class NumberAssignments {
 
 	// //Build a compound interest calculator
 	public void compIntrestCalc() {
-		double principal = 500;
+		double principal = 500; 
 		double rate = 0.02;
 		double years = 5;
 		double numberCompound = 1;
